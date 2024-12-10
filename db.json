@@ -1,0 +1,18 @@
+{
+	"customers": [
+		{
+			"id": 1,
+			"name": "Frae Valdehuesa",
+			"email": "efvaldehuesa@gmail.com",
+			"type": "vip"
+			"location": "PH"
+		},
+		{
+			"id": 2,
+			"name": "Claire Redfield",
+			"email": "claireredfieldz3n@gmail.com",
+			"type": "vip",
+			"location": "US"
+		}
+	]
+}
