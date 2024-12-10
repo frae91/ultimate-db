@@ -14,5 +14,65 @@
 			"type": "vip",
 			"location": "US"
 		}
+	],
+	"products": [
+		{
+			"id": 1,
+			"name": "Refurbished iPhone 12",
+			"category": "Electronics",
+			"price": 499.99,
+			"stock": 25
+		},
+		{
+			"id": 2,
+			"name": "Second-hand FIFA 2024",
+			"category": "Video Games",
+			"price": 19.99,
+			"stock": 50
+		},
+		{
+			"id": 3,
+			"name": "Refurbished Macbook Air",
+			"category": "Electronics",
+			"price": 899.99,
+			"stock": 10
+		}
+	],
+	"orders": [
+		{
+			"id": 1,
+			"customer_id": 1,
+			"order_date": "2024-12-10",
+			"total_amount": 519.98
+		},
+		{
+			"id": 2,
+			"customer_id": 2,
+			"order_date": "2024-12-09",
+			"total_amount": 19.99
+		}
+	],
+	"order_items": [
+		{
+			"id": 1,
+			"order_id": 1,
+			"product_id": 1,
+			"quantity": 1,
+			"price": 499.99
+		},
+		{
+			"id": 2,
+			"order_id": 1,
+			"product_id": 2,
+			"quantity": 1,
+			"price": 19.99
+		},
+		{
+			"id": 3,
+			"order_id": 2,
+			"product_id": 2,
+			"quantity": 1,
+			"price": 19.99
+		}
 	]
 }
