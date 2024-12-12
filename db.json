@@ -21,21 +21,24 @@
 			"name": "Refurbished iPhone 12",
 			"category": "Electronics",
 			"price": 499.99,
-			"stock": 25
+			"stock": 25,
+			"img_url": "https://blueside.store/storage/app/public/product/2024-05-08-663acd4149cf4.webp"
 		},
 		{
 			"id": 2,
 			"name": "Second-hand FIFA 2024",
 			"category": "Video Games",
 			"price": 19.99,
-			"stock": 50
+			"stock": 50,
+			"img_url": "https://ecommerce.datablitz.com.ph/cdn/shop/files/5030937125199_500x.jpg"
 		},
 		{
 			"id": 3,
-			"name": "Refurbished Macbook Air",
+			"name": "Refurbished Macbook Air M1",
 			"category": "Electronics",
 			"price": 899.99,
-			"stock": 10
+			"stock": 10,
+			"img_url": "https://switch.com.ph/cdn/shop/products/gold.jpg"
 		}
 	],
 	"orders": [
@@ -43,13 +46,15 @@
 			"id": 1,
 			"customer_id": 1,
 			"order_date": "2024-12-10",
-			"total_amount": 519.98
+			"total_amount": 519.98,
+			"status": "completed"
 		},
 		{
 			"id": 2,
 			"customer_id": 2,
 			"order_date": "2024-12-09",
-			"total_amount": 19.99
+			"total_amount": 19.99,
+			"status": "pending"
 		}
 	],
 	"order_items": [
