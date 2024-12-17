@@ -13,6 +13,27 @@
 			"email": "claireredfieldz3n@gmail.com",
 			"type": "vip",
 			"location": "US"
+		},
+		{
+			"id": 3,
+			"name": "Jill Valentine",
+			"email": "jill.valentine@example.com",
+			"type": "regular",
+			"location": "US"
+		},
+		{
+			"id": 4,
+			"name": "Rinoa Heartilly",
+			"email": "rinoa.heartilly@example.com",
+			"type": "regular",
+			"location": "JP"
+		},
+		{
+			"id": 5,
+			"name": "John Doe",
+			"email": "john.doe@example.com",
+			"type": "regular",
+			"location": "US"
 		}
 	],
 	"products": [
@@ -39,6 +60,38 @@
 			"price": 899.99,
 			"stock": 10,
 			"img_url": "https://switch.com.ph/cdn/shop/products/gold.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Wireless Headphones",
+			"category": "Accessories",
+			"price": 89.99,
+			"stock": 40,
+			"img_url": "https://images.pexels.com/photos/3945668/pexels-photo-3945668.jpeg"
+		},
+		{
+			"id": 5,
+			"name": "Gaming Mouse",
+			"category": "Accessories",
+			"price": 49.99,
+			"stock": 30,
+			"img_url": "https://www.itech.ph/wp-content/uploads/2020/09/LOGITECH-G304-LIGHTSPEED-WIRELESS-GAMING-MOUSE-WHITE.png"
+		},
+		{
+			"id": 6,
+			"name": "4K Ultra HD TV",
+			"category": "Electronics",
+			"price": 799.99,
+			"stock": 15,
+			"img_url": "https://example.com/images/4k_tv.jpg"
+		},
+		{
+			"id": 7,
+			"name": "Bluetooth Speaker",
+			"category": "Accessories",
+			"price": 59.99,
+			"stock": 25,
+			"img_url": "https://digitalwalker.ph/cdn/shop/products/MARSPESTOCKWELLIIBLACKANDBRASS1_1500x1500.png"
 		}
 	],
 	"orders": [
@@ -47,37 +100,134 @@
 			"customer_id": 1,
 			"order_date": "2024-12-10",
 			"total_amount": 519.98,
-			"status": "completed"
+			"status": "completed",
+			"order_items": [
+				{
+					"id": 1,
+					"product_id": 1,
+					"product_name": "Refurbished iPhone 12",
+					"img_url": "https://blueside.store/storage/app/public/product/2024-05-08-663acd4149cf4.webp",
+					"quantity": 1,
+					"price": 499.99
+				},
+				{
+					"id": 2,
+					"product_id": 2,
+					"product_name": "Second-hand FIFA 2024",
+					"img_url": "https://ecommerce.datablitz.com.ph/cdn/shop/files/5030937125199_500x.jpg",
+					"quantity": 1,
+					"price": 19.99
+				}
+			]
 		},
 		{
 			"id": 2,
 			"customer_id": 2,
 			"order_date": "2024-12-09",
 			"total_amount": 19.99,
-			"status": "pending"
-		}
-	],
-	"order_items": [
-		{
-			"id": 1,
-			"order_id": 1,
-			"product_id": 1,
-			"quantity": 1,
-			"price": 499.99
-		},
-		{
-			"id": 2,
-			"order_id": 1,
-			"product_id": 2,
-			"quantity": 1,
-			"price": 19.99
+			"status": "pending",
+			"order_items": [
+				{
+					"id": 3,
+					"product_id": 2,
+					"product_name": "Second-hand FIFA 2024",
+					"img_url": "https://ecommerce.datablitz.com.ph/cdn/shop/files/5030937125199_500x.jpg",
+					"quantity": 1,
+					"price": 19.99
+				}
+			]
 		},
 		{
 			"id": 3,
-			"order_id": 2,
-			"product_id": 2,
-			"quantity": 1,
-			"price": 19.99
+			"customer_id": 3,
+			"order_date": "2024-12-11",
+			"total_amount": 589.98,
+			"status": "completed",
+			"order_items": [
+				{
+					"id": 4,
+					"product_id": 3,
+					"product_name": "Refurbished Macbook Air M1",
+					"img_url": "https://switch.com.ph/cdn/shop/products/gold.jpg",
+					"quantity": 1,
+					"price": 899.99
+				},
+				{
+					"id": 5,
+					"product_id": 4,
+					"product_name": "Wireless Headphones",
+					"img_url": "https://images.pexels.com/photos/3945668/pexels-photo-3945668.jpeg",
+					"quantity": 1,
+					"price": 89.99
+				}
+			]
+		},
+		{
+			"id": 4,
+			"customer_id": 4,
+			"order_date": "2024-12-12",
+			"total_amount": 149.98,
+			"status": "pending",
+			"order_items": [
+				{
+					"id": 6,
+					"product_id": 5,
+					"product_name": "Gaming Mouse",
+					"img_url": "https://www.itech.ph/wp-content/uploads/2020/09/LOGITECH-G304-LIGHTSPEED-WIRELESS-GAMING-MOUSE-WHITE.png",
+					"quantity": 1,
+					"price": 49.99
+				},
+				{
+					"id": 7,
+					"product_id": 7,
+					"product_name": "Bluetooth Speaker",
+					"img_url": "https://digitalwalker.ph/cdn/shop/products/MARSPESTOCKWELLIIBLACKANDBRASS1_1500x1500.png",
+					"quantity": 1,
+					"price": 59.99
+				}
+			]
+		},
+		{
+			"id": 5,
+			"customer_id": 5,
+			"order_date": "2024-12-13",
+			"total_amount": 799.99,
+			"status": "completed",
+			"order_items": [
+				{
+					"id": 8,
+					"product_id": 6,
+					"product_name": "4K Ultra HD TV",
+					"img_url": "https://example.com/images/4k_tv.jpg",
+					"quantity": 1,
+					"price": 799.99
+				}
+			]
+		},
+		{
+			"id": 6,
+			"customer_id": 2,
+			"order_date": "2024-12-14",
+			"total_amount": 559.98,
+			"status": "shipped",
+			"order_items": [
+				{
+					"id": 9,
+					"product_id": 1,
+					"product_name": "Refurbished iPhone 12",
+					"img_url": "https://blueside.store/storage/app/public/product/2024-05-08-663acd4149cf4.webp",
+					"quantity": 1,
+					"price": 499.99
+				},
+				{
+					"id": 10,
+					"product_id": 7,
+					"product_name": "Bluetooth Speaker",
+					"img_url": "https://digitalwalker.ph/cdn/shop/products/MARSPESTOCKWELLIIBLACKANDBRASS1_1500x1500.png",
+					"quantity": 1,
+					"price": 59.99
+				}
+			]
 		}
 	]
 }
